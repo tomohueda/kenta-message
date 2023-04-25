@@ -21,7 +21,7 @@
             <div class="mt-16 justify-center">
             <h4>{{$title}} by 森本ケンタ</h4>
             <audio controls controlslist="nodownload" autoplay src="{{$url}}" type="audio/mp3">{{$title}}</audio>
-            </div>
+
         </div>
     </body>
 </html>
