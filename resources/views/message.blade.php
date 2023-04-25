@@ -16,7 +16,7 @@
         </style>
     </head>
     <body class="antialiased" style="background-color: rgb(255, 255, 255);">
-        <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
+        <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen">
             
             <div class="mt-16 justify-center">
             <h4>{{$title}} by 森本ケンタ</h4>
