@@ -49,6 +49,22 @@ class MessageController extends Controller
                 $title = "小麦屋 PR";
                 $path = "data/8_komugiya.m4a";
                 break;
+            case 9:
+                $title = "フラ＆オリタヒチ花花 PR";
+                $path = "data/9_fura.m4a";
+                break;
+            case 10:
+                $title = "株式会社ウエカド PR";
+                $path = "data/10_uekado.m4a";
+                break;
+            case 11:
+                $title = "新庄みそ PR";
+                $path = "data/11_shinjyo_miso.m4a";
+                break;
+            case 12:
+                $title = "香月産婦人科 PR";
+                $path = "data/12_kogetsu.m4a";
+                break;
         }
 
 
