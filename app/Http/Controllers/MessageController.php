@@ -65,12 +65,36 @@ class MessageController extends Controller
                 $title = "香月産婦人科 PR";
                 $path = "data/12_kogetsu.m4a";
                 break;
+            case 13:
+                $title = "ジャンボショップ PR";
+                $path = "data/13_jumboshop.m4a";
+                break;
+            case 14:
+                $title = "ヒロマツホールディングス株式会社 PR";
+                $path = "data/14_hiromatzu.m4a";
+                break;
+            case 15:
+                $title = "ホライズン株式会社 PR";
+                $path = "data/15_horizon.m4a";
+                break;
+            case 16:
+                $title = "株式会社GAパートナーズ PR";
+                $path = "data/16_ga.m4a";
+                break;
+            case 17:
+                $title = "株式会社ロイヤルコーポレーション PR";
+                $path = "data/17_royal.m4a";
+                break;
+            case 18:
+                $title = "創作バル ぼんど PR";
+                $path = "data/18_bondo.m4a";
+                break;
         }
 
 
         return view (
             //'top',
-            'message',
+            'message_v2',
             [
                 'num' => $num,
                 'title' => $title,
