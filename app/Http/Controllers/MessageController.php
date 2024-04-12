@@ -89,6 +89,38 @@ class MessageController extends Controller
                 $title = "創作バル ぼんど PR";
                 $path = "data/18_bondo.m4a";
                 break;
+            case 19:
+                $title = "学校法人喜田学園　東林館高等学校 PR";
+                $path = "data/19.m4a";
+                break;
+            case 20:
+                $title = "株式会社永和 PR";
+                $path = "data/20.m4a";
+                break;
+            case 21:
+                $title = "チー坊 PR";
+                $path = "data/21.m4a";
+                break;
+            case 22:
+                $title = "西洋菓子処バイエルン PR";
+                $path = "data/22.m4a";
+                break;
+            case 23:
+                $title = "株式会社木の家サイエンスホーム広島店 PR";
+                $path = "data/23.m4a";
+                break;
+            case 24:
+                $title = "Nikutama PR";
+                $path = "data/24.m4a";
+                break;
+            case 25:
+                $title = "Lily PR";
+                $path = "data/25.m4a";
+                break;
+            case 26:
+                $title = "尾道国際ホテル PR";
+                $path = "data/26.m4a";
+                break;
         }
 
 

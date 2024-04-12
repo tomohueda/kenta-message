@@ -23,8 +23,8 @@
         <div class="card" style="col-12">
             <div class="card-body text-center">
                 <div class="alert alert-primary" role="alert">
-                    <p class="h3">{{$title}}</p>
-                    <p class="h4">by 森本ケンタ</p>
+                    <p class="h4">{{$title}}</p>
+                    <p class="h5">by 森本ケンタ</p>
                 </div>
               <audio class="border border-5 rounded-5" controls controlslist="nodownload" autoplay src="{{$url}}" type="audio/mp3">{{$title}}</audio>
             </div>
