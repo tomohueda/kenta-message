@@ -121,6 +121,18 @@ class MessageController extends Controller
                 $title = "尾道国際ホテル PR";
                 $path = "data/26.m4a";
                 break;
+            case 27:
+                $title = "コムタテイシ PR";
+                $path = "data/27.m4a";
+                break;
+            case 28:
+                $title = "フレックスCRM PR";
+                $path = "data/28.m4a";
+                break;
+            case 29:
+                $title = "スパイラルガーデン大州 PR";
+                $path = "data/29.m4a";
+                break;
         }
 
 
