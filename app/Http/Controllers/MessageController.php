@@ -126,11 +126,11 @@ class MessageController extends Controller
                 $path = "data/27.m4a";
                 break;
             case 28:
-                $title = "フレックスCRM PR";
+                $title = "合人社グループ 株式会社G.FLEX PR";
                 $path = "data/28.m4a";
                 break;
             case 29:
-                $title = "スパイラルガーデン大州 PR";
+                $title = "Spiral Garden OHZU PR";
                 $path = "data/29.m4a";
                 break;
         }
