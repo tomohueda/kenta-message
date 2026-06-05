@@ -133,6 +133,62 @@ class MessageController extends Controller
                 $title = "Spiral Garden OHZU PR";
                 $path = "data/29.m4a";
                 break;
+            case 101:
+                $title = "ヒロマツホールディングス株式会社 PR";
+                $path = "data/tomato/hiromatsu.m4a";
+                break;
+            case 102:
+                $title = "株式会社ＧＡパートナーズ PR";
+                $path = "data/tomato/ga_partners.m4a";
+                break;
+            case 103:
+                $title = "岩惣 PR";
+                $path = "data/tomato/iwasou.m4a";
+                break;
+            case 104:
+                $title = "広島トヨペット株式会社 PR";
+                $path = "data/tomato/toyopet.m4a";
+                break;
+            case 105:
+                $title = "株式会社モイスティーヌ広島販売 PR";
+                $path = "data/tomato/moist.m4a";
+                break;
+            case 106:
+                $title = "尾道国際ホテル PR";
+                $path = "";
+                break;
+            case 107:
+                $title = "和洋菓子ながお PR";
+                $path = "data/tomato/nagao.m4a";
+                break;
+            case 108:
+                $title = "株式会社寿屋珈琲飲料社 PR";
+                $path = "data/tomato/kotobukiya.m4a";
+                break;
+            case 109:
+                $title = "かねしげ会計株式会社 PR";
+                $path = "data/tomato/kaneshige.m4a";
+                break;
+            case 110:
+                $title = "株式会社速太郎本部 PR";
+                $path = "data/tomato/hayataro.m4a";
+                break;
+            case 111:
+                $title = "小島建興株式会社 PR";
+                $path = "data/tomato/kojima.m4a";
+                break;
+            case 112:
+                $title = "株式会社西洋菓子処バイエルン PR";
+                $path = "data/tomato/baierun.m4a";
+                break;
+            case 113:
+                $title = "株式会社ヒロツク PR";
+                $path = "";
+                break;
+            case 114:
+                $title = "株式会社晃祐堂 PR";
+                $path = "data/tomato/koyudo.m4a";
+                break;
         }
 
 

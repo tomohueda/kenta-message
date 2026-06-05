@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noindex, nofollow">
 
         <title>{{$title}}</title>
 
@@ -26,7 +27,11 @@
                     <p class="h4">{{$title}}</p>
                     <p class="h5">by 森本ケンタ</p>
                 </div>
-              <audio class="border border-5 rounded-5" controls controlslist="nodownload" autoplay src="{{$url}}" type="audio/mp3">{{$title}}</audio>
+              @if($path)
+                <audio class="border border-5 rounded-5" controls controlslist="nodownload" autoplay src="{{$url}}" type="audio/mp3">{{$title}}</audio>
+              @else
+                <p class="h6">音声は準備中です</p>
+              @endif
             </div>
         </div>
     </body>
