@@ -155,7 +155,7 @@ class MessageController extends Controller
                 break;
             case 106:
                 $title = "尾道国際ホテル PR";
-                $path = "";
+                $path = "data/tomato/onomichi_hotel.m4a";
                 break;
             case 107:
                 $title = "和洋菓子ながお PR";
@@ -183,7 +183,7 @@ class MessageController extends Controller
                 break;
             case 113:
                 $title = "株式会社ヒロツク PR";
-                $path = "";
+                $path = "data/tomato/hirotsuku.m4a";
                 break;
             case 114:
                 $title = "株式会社晃祐堂 PR";
