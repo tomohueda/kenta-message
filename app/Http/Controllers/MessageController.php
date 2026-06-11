@@ -15,6 +15,8 @@ class MessageController extends Controller
 
         $title = "";
         $path = "";
+        $title2 = "";
+        $path2 = "";
 
         switch ($num) {
             case 1:
@@ -164,6 +166,8 @@ class MessageController extends Controller
             case 108:
                 $title = "株式会社寿屋珈琲飲料社 PR";
                 $path = "data/tomato/kotobukiya.m4a";
+                $title2 = "かねしげ会計株式会社 PR";
+                $path2 = "data/tomato/kaneshige.m4a";
                 break;
             case 109:
                 $title = "かねしげ会計株式会社 PR";
@@ -200,6 +204,9 @@ class MessageController extends Controller
                 'title' => $title,
                 'path' => $path,
                 'url' => asset($path),
+                'title2' => $title2,
+                'path2' => $path2,
+                'url2' => asset($path2),
             ]
         );
     }

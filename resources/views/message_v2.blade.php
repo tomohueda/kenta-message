@@ -34,5 +34,21 @@
               @endif
             </div>
         </div>
+
+        @if(!empty($title2))
+        <div class="card" style="col-12">
+            <div class="card-body text-center">
+                <div class="alert alert-primary" role="alert">
+                    <p class="h4">{{$title2}}</p>
+                    <p class="h5">by 森本ケンタ</p>
+                </div>
+              @if($path2)
+                <audio class="border border-5 rounded-5" controls controlslist="nodownload" src="{{$url2}}" type="audio/mp3">{{$title2}}</audio>
+              @else
+                <p class="h6">音声は準備中です</p>
+              @endif
+            </div>
+        </div>
+        @endif
     </body>
 </html>
