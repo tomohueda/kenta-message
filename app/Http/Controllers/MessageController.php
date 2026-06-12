@@ -193,6 +193,10 @@ class MessageController extends Controller
                 $title = "株式会社晃祐堂 PR";
                 $path = "data/tomato/koyudo.m4a";
                 break;
+            case 115:
+                $title = "株式会社寿屋珈琲飲料社 PR";
+                $path = "data/tomato/kotobukiya.m4a";
+                break;
         }
 
 
